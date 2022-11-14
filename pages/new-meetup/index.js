@@ -28,7 +28,7 @@ const NewMeetupPage = () => {
   };
 
   return (
-    <Fragement>
+    <Fragment>
       <Head>
         <title>Add a new meetup</title>
         <meta
@@ -37,7 +37,7 @@ const NewMeetupPage = () => {
         />
       </Head>
       <NewMeetupForm onAddMeetup={addMeetupHandler} />;
-    </Fragement>
+    </Fragment>
   );
 };
 
